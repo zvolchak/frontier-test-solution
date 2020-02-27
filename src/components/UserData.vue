@@ -20,13 +20,12 @@
           li
             label Due Date:
             |  {{dueDateFormatted}}
-
-
 </template>
 
 <script>
 export default {
   name: 'UserData',
+
   props: {
     LastName: { type: String },
     FirstName: { type: String },
@@ -37,7 +36,6 @@ export default {
     Id: { type: Number },
     Status: {type: Number },
   },//props
-
 
 
   computed: {

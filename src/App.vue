@@ -1,18 +1,20 @@
 <template lang="pug">
   #app
-    UserData
+    DisplayUserData
 </template>
 
 <script>
-import UserData from '@/components/UserData'
+import DisplayUserData from '@/components/DisplayUserData'
 
 export default {
   name: 'App',
   components: {
-    UserData
+    DisplayUserData
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+  @import '@/styles/main.scss';
+  @import 'bulma';
 </style>
